@@ -4,7 +4,9 @@ function App() {
   <div>
     <h1>My Todos</h1>
     {/* Passing the Todo component. */}
-    <Todo />
+    <Todo text='Learn React'/>
+    <Todo text='Master'/>
+    <Todo text='Explore'/>
   </div>
   );
 }
